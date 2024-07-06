@@ -579,24 +579,6 @@
     text-align: center;
     padding-left: 50px;
 }
-.buttom-line{
-    width: 70px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    background-color: rgb(29,155,240);
-    top: 44px;
-    left: 120px;
-}
-.buttom-line2{
-    width: 90px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    background-color: rgb(29,155,240);
-    top: 44px;
-    left: 480px;
-}
 .no-line{
     text-decoration-line: none;
     color: gray;
@@ -832,16 +814,21 @@ body{
     display: none;
 }
 .p{
+    height: 50px;
     background-color: transparent;
     border: none;
+    border-bottom: 5px solid rgb(29,155,240);
+    border-radius: 4px;
     color: white;
     font-weight: 600;
+    list-style-type: none;
 }
 .pee{
     background-color: transparent;
     border: none;
     color: white;
     font-weight: 600;
+    list-style-type: none;
 }
 .cons{
     color: white;
@@ -862,14 +849,13 @@ body{
     align-items: center;
 }
 .sidebarbut{
-    width: 100vw;
+    width: 100%;
     height: 50px;
-    gap: 25px;
-    overflow: auto;
-    /* overflow-y: hidden; */
+    gap: 5px;
+    overflow-x: auto;
     position: fixed;
     bottom: 0;
-    right: 0;
+    left: 0;
     z-index: 3;
     background-color: black;
     display: flex;
@@ -1549,19 +1535,22 @@ body{
 }
 .side-bar-nav{
     /* overflow: auto; */
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
     position: fixed;
     top: 0;
     left: 0;
-}
-.side-bar-navbut{
-    /* overflow: auto; */
-    position: sticky;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
 }
 .grok-ai{
     width: 100px;
     height: 50px;
     margin-left: -35px;
+}
+.grok-aimsg{
+    width: 100px;
+    height: 50px;
+}
+.zee{
+    z-index: 99;
 }
