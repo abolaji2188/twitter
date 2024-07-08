@@ -16,6 +16,42 @@
     .pee{
       color: gray;
     }
+    .bottombar{
+      display: none;
+    }
+    @media (max-width: 1200px) {
+      .first{
+        width: 100%;
+      }
+      .second{
+        width: 40%;
+        display: none;
+      }
+      .sidebar{
+        height: 100vh;
+      }
+      .nav-flex{
+        font-size: 18px;
+        font-weight: 400;
+        /* padding-left: 5px; */
+        padding-right: 20px;
+        gap: 500px;
+      }
+      .post-details{
+        width: 100%;
+      }
+    }
+    @media (max-width: 455px) {
+      .sidebar{
+        display: none;
+
+      }
+      .bottombar{
+        display: flex;
+        /* width: 100vw; */
+      }
+      
+    }
   </style>
   <body>
     <nav class="side-bar-nav">
@@ -45,12 +81,45 @@
           />
         </div>
         <div class="profileimg-container">
-          <img
-        class="profileimg"
-        src="./XIMAGES/4b934b4adc295f33e572824a5335e4cc.jpg"
-        alt=""
-      />
+          <button>
+            <img
+            class="profileimg"
+            src="./XIMAGES/4b934b4adc295f33e572824a5335e4cc.jpg"
+            alt=""
+          />
+          </button>
+          <!-- <div class="childprof">
+            <p>add an existing account</p>
+            <p>log out abola13891</p>
+          </div> -->
         </div>
+      </div>
+    </nav>
+    <nav class="nav-bottombar">
+      <div class="bottombar">
+        <i class="fa-brands fa-x-twitter icons"></i>
+        <a href="foryou.html"><i class="fa-solid fa-house icons"></i></a>
+        <a href="search.html"><i class="fa-solid fa-magnifying-glass icons"></i></a>
+        <i class="fa-regular fa-bell icons"></i>
+        <a href="messages.html"><i class="fa-regular fa-envelope icons"></i></a>
+        <!-- <img
+          src="./XIMAGES/images-removebg-preview (17).png"
+          alt=""
+          class="grok-aimsg"
+        /> -->
+        <i class="fa-solid fa-user-group icons"></i>
+        <a href="profile.html"><i class="fa-solid fa-user icons"></i></a>
+        <img
+          class="pendingimg"
+          src="./XIMAGES/pending_48dp_FILL0_wght400_GRAD0_opsz48.svg"
+          alt=""
+        />
+        <div class="imgaddfix">
+          <img
+            class="add-img"
+            src="./XIMAGES/images-removebg-preview (16).png"
+            alt=""
+          />
       </div>
     </nav>
     <div class="drop1">
