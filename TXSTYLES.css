@@ -1167,6 +1167,41 @@ body{
     font-weight: 500;
     position: relative;
 }
+.btnx2{
+    background-color: transparent;
+    border: none;
+    color: gray;
+    font-weight: 500;
+    position: relative;
+}
+.btnx3{
+    background-color: transparent;
+    border: none;
+    color: gray;
+    font-weight: 500;
+    position: relative;
+}
+.btnx4{
+    background-color: transparent;
+    border: none;
+    color: gray;
+    font-weight: 500;
+    position: relative;
+}
+.btnx5{
+    background-color: transparent;
+    border: none;
+    color: gray;
+    font-weight: 500;
+    position: relative;
+}
+.btnx6{
+    background-color: transparent;
+    border: none;
+    color: gray;
+    font-weight: 500;
+    position: relative;
+}
 .btnx:focus-within{
     color: white;
     font-weight: 600;

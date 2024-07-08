@@ -6,6 +6,20 @@
     <title>profile</title>
     <link rel="stylesheet" href="./TXSTYLES.css">
 </head>
+<style>
+  .bottombar{
+    display: none;
+  }
+  @media (max-width: 1200px) {
+    .sidebar{
+      display: none;
+    }
+    .bottombar{
+      width: 100vw;
+    }
+    
+  }
+</style>
 <body>
     <!DOCTYPE html>
 <html lang="en">
@@ -58,6 +72,33 @@
         </div>
       </div>
     </nav>
+    <nav class="nav-bottombar">
+      <div class="bottombar">
+        <i class="fa-brands fa-x-twitter icons"></i>
+        <a href="foryou.html"><i class="fa-solid fa-house icons"></i></a>
+        <a href="search.html"><i class="fa-solid fa-magnifying-glass icons"></i></a>
+        <i class="fa-regular fa-bell icons"></i>
+        <a href="messages.html"><i class="fa-regular fa-envelope icons"></i></a>
+        <!-- <img
+          src="./XIMAGES/images-removebg-preview (17).png"
+          alt=""
+          class="grok-aimsg"
+        /> -->
+        <i class="fa-solid fa-user-group icons"></i>
+        <a href="profile.html"><i class="fa-solid fa-user icons"></i></a>
+        <img
+          class="pendingimg"
+          src="./XIMAGES/pending_48dp_FILL0_wght400_GRAD0_opsz48.svg"
+          alt=""
+        />
+        <div class="imgaddfix">
+          <img
+            class="add-img"
+            src="./XIMAGES/images-removebg-preview (16).png"
+            alt=""
+          />
+      </div>
+    </nav>
     <div class="drop1">
       <section class="first">
         <nav class="nav-top2">
@@ -100,7 +141,7 @@
           <div class="par-profiletab">
             <button class="btnx">Posts</button>
             <div class="child-profiletab">
-              <div class="underline"></div>
+              <!-- <div class="underline"></div> -->
               <nav class="nav-setup"><h5>Let's get you set up</h5></nav>
               <div class="overflowx">
                 <div class="chi1">
@@ -170,7 +211,7 @@
             </div>
           </div>
           <div class="par-profiletab2">
-            <button class="btnx">Replies</button>
+            <button class="btnx2">Replies</button>
           <div class="child-profiletab2">
             <div class="underline2"></div>
             <nav class="nav-setup"><h5>Let's get you set up</h5></nav>
@@ -242,7 +283,7 @@
           </div>
           </div>
           <div class="par-highlight">
-            <button class="btnx">Highlights</button>
+            <button class="btnx3">Highlights</button>
             <div class="childhighlight">
               <div class="underline3"></div>
               <div class="inbox-message">
@@ -253,7 +294,7 @@
             </div>
           </div>
           <div class="par-highlight">
-            <button class="btnx">Articles</button>
+            <button class="btnx4">Articles</button>
             <div class="childhighlight">
               <div class="underline4"></div>
               <div class="inbox-message">
@@ -264,7 +305,7 @@
             </div>
           </div>
           <div class="par-highlight">
-            <button class="btnx">Media</button>
+            <button class="btnx5">Media</button>
             <div class="childhighlight">
               <div class="underline5"></div>
               <div class="inbox-message">
@@ -275,7 +316,7 @@
             </div>
           </div>
           <div class="par-highlight">
-            <button class="btnx">Likes</button>
+            <button class="btnx6">Likes</button>
             <div class="childhighlight">
               <div class="underline6"></div>
               <div class="inbox-message">
