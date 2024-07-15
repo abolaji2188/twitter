@@ -18,6 +18,7 @@
 }
 .first-nav{
     /* background-color: aquamarine; nm */
+    width: 100%;
     border: 1px solid gray;
     position: sticky;
     top: 0;
@@ -231,6 +232,7 @@
     color: gray;
 }
 .flex-search{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -256,6 +258,7 @@
     left: 0;
 }
 .first-div{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
